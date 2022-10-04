@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;1,100;1,400;1,500&display=swap');
 
 
-
 *,*::after,*::before{
 
     margin: 0;
@@ -142,6 +141,21 @@ p,a,h1,h2,h3,h4,h5,h6{
   color: #333333;
   font-size: 1.2em;
 }
+.upload{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ right: 15px;
+ bottom: 60px;
+  width: 50px;
+  height: 50px;
+  border-radius:50%;
+  background:#1DA1F2 ;
+  z-index: 101;
+ 
+}
+
 .footer{
   position: fixed;
   border-top: 1px #333 solid;
@@ -158,4 +172,8 @@ p,a,h1,h2,h3,h4,h5,h6{
 .footer a{
   color: #ffffff;
   font-size: 1.5em;
+}
+.upload a{
+  color: #ffffff;
+  font-size: 3em;
 }
